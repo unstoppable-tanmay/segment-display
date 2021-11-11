@@ -1,0 +1,1373 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+::selection{
+    user-select: none;
+}
+#text{
+    width: 200px;
+    height: 20px;
+    margin-left: 630px;
+    margin-top: 100px;
+    text-align: center;
+    position: absolute;
+    user-select: text;
+}
+#btn{
+    width: 50px;
+    height: 25px;
+    margin-left: 710px;
+    margin-top: 150px;
+    position: absolute;
+}
+#btn1{
+    width: 50px;
+    height: 25px;
+    margin-left: 1410px;
+    margin-top: 145px;
+    position: absolute;
+}
+#btn2{
+    width: 50px;
+    height: 25px;
+    margin-left: 15px;
+    margin-top: 15px;
+    position: absolute;
+}
+.search img{
+    margin-left: 840px;
+    margin-top: 99px;
+    position: absolute;
+    width: 25px;
+}
+.clock img{
+    position: absolute;
+    width: 30px;
+    margin-left: 1415px;
+    margin-top: 99px;
+}
+.dot1{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: black;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 533px;
+}
+.dot2{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: black;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 533px;
+}
+.dot3{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: black;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 933px;
+}
+.dot4{
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: black;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 933px;
+}
+:root{
+    --A1: black;
+    --B1: black;
+    --C1: black;
+    --D1: black;
+    --E1: black;
+    --F1: black;
+    --G11: black;
+    --G21: black;
+    --J1: black;
+    --H1: black;
+    --K1: black;
+    --L1: black;
+    --I1: black;
+    --M1: black;
+
+    
+    --A2: black;
+    --B2: black;
+    --C2: black;
+    --D2: black;
+    --E2: black;
+    --F2: black;
+    --G12: black;
+    --G22: black;
+    --J2: black;
+    --H2: black;
+    --K2: black;
+    --L2: black;
+    --I2: black;
+    --M2: black;
+
+
+    --A3: black;
+    --B3: black;
+    --C3: black;
+    --D3: black;
+    --E3: black;
+    --F3: black;
+    --G13: black;
+    --G23: black;
+    --J3: black;
+    --H3: black;
+    --K3: black;
+    --L3: black;
+    --I3: black;
+    --M3: black;
+
+
+    --A4: black;
+    --B4: black;
+    --C4: black;
+    --D4: black;
+    --E4: black;
+    --F4: black;
+    --G14: black;
+    --G24: black;
+    --J4: black;
+    --H4: black;
+    --K4: black;
+    --L4: black;
+    --I4: black;
+    --M4: black;
+
+
+    --A5: black;
+    --B5: black;
+    --C5: black;
+    --D5: black;
+    --E5: black;
+    --F5: black;
+    --G15: black;
+    --G25: black;
+    --J5: black;
+    --H5: black;
+    --K5: black;
+    --L5: black;
+    --I5: black;
+    --M5: black;
+
+
+    --A6: black;
+    --B6: black;
+    --C6: black;
+    --D6: black;
+    --E6: black;
+    --F6: black;
+    --G16: black;
+    --G26: black;
+    --J6: black;
+    --H6: black;
+    --K6: black;
+    --L6: black;
+    --I6: black;
+    --M6: black;
+
+    --on: red;
+}
+.container{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 130px;
+}
+.D1{
+    width: 230px;
+    height: 350px;
+    position: absolute;
+    transform: scale(0.7);
+}
+.D2{
+    width: 230px;
+    height: 350px;
+    margin-left: 200px;
+    position: absolute;
+    transform: scale(0.7);
+}
+.D3{
+    width: 230px;
+    height: 350px;
+    margin-left: 400px;
+    position: absolute;
+    transform: scale(0.7);
+}
+.D4{
+    width: 230px;
+    height: 350px;
+    margin-left: 600px;
+    position: absolute;
+    transform: scale(0.7);
+}
+.D5{
+    width: 230px;
+    height: 350px;
+    margin-left: 800px;
+    position: absolute;
+    transform: scale(0.7);
+}
+.D6{
+    width: 230px;
+    height: 350px;
+    margin-left: 1000px;
+    position: absolute;
+    transform: scale(0.7);
+}
+.A{
+    position: absolute;
+    width: 140px;
+    height: 30px;
+    margin-left: 45px;
+    margin-top: 18px;
+}
+.A::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: -30px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.A::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 140px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.B{
+    position: absolute;
+    width: 30px;
+    height: 100px;
+    margin-left: 185px;
+    margin-top: 53px;
+}
+.B::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: -15px;
+    border-left: 30px solid transparent;
+}
+.B::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 100px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+.C{
+    width: 30px;
+    height: 100px;
+    position: absolute;
+    margin-left: 185px;
+    margin-top: 195px;
+}
+.C::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: -20px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+.C::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 100px;
+    border-left: 30px solid transparent;
+}
+.D{
+    width: 140px;
+    height: 30px;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 300px;
+}
+.D::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: -30px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.D::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 140px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.E{
+    width: 30px;
+    height: 100px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 195px;
+}
+.E::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: -20px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+.E::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 100px;
+    border-right: 30px solid transparent;
+}
+.F{
+    position: absolute;
+    width: 30px;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 53px;
+}
+.F::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: -15px;
+    border-right: 30px solid transparent;
+}
+.F::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 100px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+.H{
+    width: 30px;
+    height: 80px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 195px;
+}
+.H::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: -20px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+.H::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 80px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+.I{
+    width: 30px;
+    height: 80px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 74px;
+}
+.I::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: -20px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+.I::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 80px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+.G1{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    margin-left: 42.5px;
+    margin-top: 159px;
+}
+.G1::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: -10px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.G1::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 60px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.G2{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    margin-left: 128px;
+    margin-top: 159px;
+}
+.G2::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: -10px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.G2::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 60px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.J{
+    position: absolute;
+    width: 115px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 94px;
+    transform: rotate(50deg);
+    z-index: -2;
+}
+.J::before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 40px;
+    margin-left: 96px;
+    margin-top: -10px;
+    transform: rotate(-50deg);
+    background-color: black;
+    z-index: -2;
+}
+.J::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 38px;
+    margin-left: 14px;
+    margin-top: -10px;
+    transform: rotate(-50deg);
+    background-color: black;
+    z-index: -2;
+}
+.K{
+    position: absolute;
+    width: 115px;
+    height: 20px;
+    margin-left: 100px;
+    margin-top: 94px;
+    transform: rotate(-50deg);
+    z-index: -2;
+}
+.K::before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 40px;
+    margin-left: 96px;
+    margin-top: -10px;
+    transform: rotate(50deg);
+    background-color: black;
+    z-index: -2;
+}
+.K::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 38px;
+    margin-left: 14px;
+    margin-top: -10px;
+    transform: rotate(50deg);
+    background-color: black;
+    z-index: -2;
+}
+.L{
+    position: absolute;
+    width: 115px;
+    height: 20px;
+    margin-left: 99px;
+    margin-top: 230px;
+    transform: rotate(-132deg);
+    z-index: -2;
+}
+.L::before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 40px;
+    margin-left: 96px;
+    margin-top: -10px;
+    transform: rotate(132deg);
+    background-color: black;
+    z-index: -2;
+}
+.L::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 38px;
+    margin-left: 14px;
+    margin-top: -10px;
+    transform: rotate(132deg);
+    background-color: black;
+    z-index: -2;
+}
+.M{
+    position: absolute;
+    width: 115px;
+    height: 20px;
+    margin-left: 14px;
+    margin-top: 230px;
+    transform: rotate(131deg);
+    z-index: -2;
+}
+.M::before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 40px;
+    margin-left: 96px;
+    margin-top: -10px;
+    transform: rotate(-131deg);
+    background-color: black;
+    z-index: -2;
+}
+.M::after{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 38px;
+    margin-left: 14px;
+    margin-top: -10px;
+    transform: rotate(-131deg);
+    background-color: black;
+    z-index: -2;
+}
+
+
+
+/* D1 */
+.oneA{
+    background-color: var(--A1);
+}
+.oneA::before{
+    border-right: 30px solid var(--A1);
+}
+.oneA::after{
+    border-left: 30px solid var(--A1);
+}
+
+.oneB{
+    background-color: var(--B1);
+}
+.oneB::before{
+    border-bottom: 15px solid var(--B1);
+}
+.oneB::after{
+    border-top: 20px solid var(--B1);
+}
+
+.oneC{
+    background-color: var(--C1);
+}
+.oneC::before{
+    border-bottom: 20px solid var(--C1);
+}
+.oneC::after{
+    border-top: 15px solid var(--C1);
+}
+
+.oneD{
+    background-color: var(--D1);
+}
+.oneD::before{
+    border-right: 30px solid var(--D1);
+}
+.oneD::after{
+    border-left: 30px solid var(--D1);
+}
+
+.oneE{
+    background-color: var(--E1);
+}
+.oneE::before{
+    border-bottom: 20px solid var(--E1);
+}
+.oneE::after{
+    border-top: 15px solid var(--E1);
+}
+
+.oneF{
+    background-color: var(--F1);
+}
+.oneF::before{
+    border-bottom: 15px solid var(--F1);
+}
+.oneF::after{
+    border-top: 20px solid var(--F1);
+}
+
+.oneH{
+    background-color: var(--H1);
+}
+.oneH::before{
+    border-bottom: 20px solid var(--H1);
+}
+.oneH::after{
+    border-top: 20px solid var(--H1);
+}
+
+.oneI{
+    background-color: var(--I1);
+}
+.oneI::before{
+    border-bottom: 20px solid var(--I1);
+}
+.oneI::after{
+    border-top: 20px solid var(--I1);
+}
+
+.oneG1{
+    background-color: var(--G11);
+}
+.oneG1::before{
+    border-right: 10px solid var(--G11);
+}
+.oneG1::after{
+    border-left: 10px solid var(--G11);
+}
+
+.oneG2{
+    background-color: var(--G21);
+}
+.oneG2::before{
+    border-right: 10px solid var(--G21);
+}
+.oneG2::after{
+    border-left: 10px solid var(--G21);
+}
+
+.oneJ{
+    background-color: var(--J1);
+}
+
+.oneK{
+    background-color: var(--K1);
+}
+
+.oneL{
+    background-color: var(--L1);
+}
+
+.oneM{
+    background-color: var(--M1);
+}
+
+
+
+
+
+
+
+/* D2 */
+.twoA{
+    background-color: var(--A2);
+}
+.twoA::before{
+    border-right: 30px solid var(--A2);
+}
+.twoA::after{
+    border-left: 30px solid var(--A2);
+}
+
+.twoB{
+    background-color: var(--B2);
+}
+.twoB::before{
+    border-bottom: 15px solid var(--B2);
+}
+.twoB::after{
+    border-top: 20px solid var(--B2);
+}
+
+.twoC{
+    background-color: var(--C2);
+}
+.twoC::before{
+    border-bottom: 20px solid var(--C2);
+}
+.twoC::after{
+    border-top: 15px solid var(--C2);
+}
+
+.twoD{
+    background-color: var(--D2);
+}
+.twoD::before{
+    border-right: 30px solid var(--D2);
+}
+.twoD::after{
+    border-left: 30px solid var(--D2);
+}
+
+.twoE{
+    background-color: var(--E2);
+}
+.twoE::before{
+    border-bottom: 20px solid var(--E2);
+}
+.twoE::after{
+    border-top: 15px solid var(--E2);
+}
+
+.twoF{
+    background-color: var(--F2);
+}
+.twoF::before{
+    border-bottom: 15px solid var(--F2);
+}
+.twoF::after{
+    border-top: 20px solid var(--F2);
+}
+
+.twoH{
+    background-color: var(--H2);
+}
+.twoH::before{
+    border-bottom: 20px solid var(--H2);
+}
+.twoH::after{
+    border-top: 20px solid var(--H2);
+}
+
+.twoI{
+    background-color: var(--I2);
+}
+.twoI::before{
+    border-bottom: 20px solid var(--I2);
+}
+.twoI::after{
+    border-top: 20px solid var(--I2);
+}
+
+.twoG1{
+    background-color: var(--G12);
+}
+.twoG1::before{
+    border-right: 10px solid var(--G12);
+}
+.twoG1::after{
+    border-left: 10px solid var(--G12);
+}
+
+.twoG2{
+    background-color: var(--G22);
+}
+.twoG2::before{
+    border-right: 10px solid var(--G22);
+}
+.twoG2::after{
+    border-left: 10px solid var(--G22);
+}
+
+.twoJ{
+    background-color: var(--J2);
+}
+
+.twoK{
+    background-color: var(--K2);
+}
+
+.twoL{
+    background-color: var(--L2);
+}
+
+.twoM{
+    background-color: var(--M2);
+}
+
+
+
+
+
+
+/* D3 */
+.threeA{
+    background-color: var(--A3);
+}
+.threeA::before{
+    border-right: 30px solid var(--A3);
+}
+.threeA::after{
+    border-left: 30px solid var(--A3);
+}
+
+.threeB{
+    background-color: var(--B3);
+}
+.threeB::before{
+    border-bottom: 15px solid var(--B3);
+}
+.threeB::after{
+    border-top: 20px solid var(--B3);
+}
+
+.threeC{
+    background-color: var(--C3);
+}
+.threeC::before{
+    border-bottom: 20px solid var(--C3);
+}
+.threeC::after{
+    border-top: 15px solid var(--C3);
+}
+
+.threeD{
+    background-color: var(--D3);
+}
+.threeD::before{
+    border-right: 30px solid var(--D3);
+}
+.threeD::after{
+    border-left: 30px solid var(--D3);
+}
+
+.threeE{
+    background-color: var(--E3);
+}
+.threeE::before{
+    border-bottom: 20px solid var(--E3);
+}
+.threeE::after{
+    border-top: 15px solid var(--E3);
+}
+
+.threeF{
+    background-color: var(--F3);
+}
+.threeF::before{
+    border-bottom: 15px solid var(--F3);
+}
+.threeF::after{
+    border-top: 20px solid var(--F3);
+}
+
+.threeH{
+    background-color: var(--H3);
+}
+.threeH::before{
+    border-bottom: 20px solid var(--H3);
+}
+.threeH::after{
+    border-top: 20px solid var(--H3);
+}
+
+.threeI{
+    background-color: var(--I3);
+}
+.threeI::before{
+    border-bottom: 20px solid var(--I3);
+}
+.threeI::after{
+    border-top: 20px solid var(--I3);
+}
+
+.threeG1{
+    background-color: var(--G13);
+}
+.threeG1::before{
+    border-right: 10px solid var(--G13);
+}
+.threeG1::after{
+    border-left: 10px solid var(--G13);
+}
+
+.threeG2{
+    background-color: var(--G23);
+}
+.threeG2::before{
+    border-right: 10px solid var(--G23);
+}
+.threeG2::after{
+    border-left: 10px solid var(--G23);
+}
+
+.threeJ{
+    background-color: var(--J3);
+}
+
+.threeK{
+    background-color: var(--K3);
+}
+
+.threeL{
+    background-color: var(--L3);
+}
+
+.threeM{
+    background-color: var(--M3);
+}
+
+
+
+
+
+
+/* D3 */
+.fourA{
+    background-color: var(--A4);
+}
+.fourA::before{
+    border-right: 30px solid var(--A4);
+}
+.fourA::after{
+    border-left: 30px solid var(--A4);
+}
+
+.fourB{
+    background-color: var(--B4);
+}
+.fourB::before{
+    border-bottom: 15px solid var(--B4);
+}
+.fourB::after{
+    border-top: 20px solid var(--B4);
+}
+
+.fourC{
+    background-color: var(--C4);
+}
+.fourC::before{
+    border-bottom: 20px solid var(--C4);
+}
+.fourC::after{
+    border-top: 15px solid var(--C4);
+}
+
+.fourD{
+    background-color: var(--D4);
+}
+.fourD::before{
+    border-right: 30px solid var(--D4);
+}
+.fourD::after{
+    border-left: 30px solid var(--D4);
+}
+
+.fourE{
+    background-color: var(--E4);
+}
+.fourE::before{
+    border-bottom: 20px solid var(--E4);
+}
+.fourE::after{
+    border-top: 15px solid var(--E4);
+}
+
+.fourF{
+    background-color: var(--F4);
+}
+.fourF::before{
+    border-bottom: 15px solid var(--F4);
+}
+.fourF::after{
+    border-top: 20px solid var(--F4);
+}
+
+.fourH{
+    background-color: var(--H4);
+}
+.fourH::before{
+    border-bottom: 20px solid var(--H4);
+}
+.fourH::after{
+    border-top: 20px solid var(--H4);
+}
+
+.fourI{
+    background-color: var(--I4);
+}
+.fourI::before{
+    border-bottom: 20px solid var(--I4);
+}
+.fourI::after{
+    border-top: 20px solid var(--I4);
+}
+
+.fourG1{
+    background-color: var(--G14);
+}
+.fourG1::before{
+    border-right: 10px solid var(--G14);
+}
+.fourG1::after{
+    border-left: 10px solid var(--G14);
+}
+
+.fourG2{
+    background-color: var(--G24);
+}
+.fourG2::before{
+    border-right: 10px solid var(--G24);
+}
+.fourG2::after{
+    border-left: 10px solid var(--G24);
+}
+
+.fourJ{
+    background-color: var(--J4);
+}
+
+.fourK{
+    background-color: var(--K4);
+}
+
+.fourL{
+    background-color: var(--L4);
+}
+
+.fourM{
+    background-color: var(--M4);
+}
+
+
+
+
+
+
+/* D3 */
+.fiveA{
+    background-color: var(--A5);
+}
+.fiveA::before{
+    border-right: 30px solid var(--A5);
+}
+.fiveA::after{
+    border-left: 30px solid var(--A5);
+}
+
+.fiveB{
+    background-color: var(--B5);
+}
+.fiveB::before{
+    border-bottom: 15px solid var(--B5);
+}
+.fiveB::after{
+    border-top: 20px solid var(--B5);
+}
+
+.fiveC{
+    background-color: var(--C5);
+}
+.fiveC::before{
+    border-bottom: 20px solid var(--C5);
+}
+.fiveC::after{
+    border-top: 15px solid var(--C5);
+}
+
+.fiveD{
+    background-color: var(--D5);
+}
+.fiveD::before{
+    border-right: 30px solid var(--D5);
+}
+.fiveD::after{
+    border-left: 30px solid var(--D5);
+}
+
+.fiveE{
+    background-color: var(--E5);
+}
+.fiveE::before{
+    border-bottom: 20px solid var(--E5);
+}
+.fiveE::after{
+    border-top: 15px solid var(--E5);
+}
+
+.fiveF{
+    background-color: var(--F5);
+}
+.fiveF::before{
+    border-bottom: 15px solid var(--F5);
+}
+.fiveF::after{
+    border-top: 20px solid var(--F5);
+}
+
+.fiveH{
+    background-color: var(--H5);
+}
+.fiveH::before{
+    border-bottom: 20px solid var(--H5);
+}
+.fiveH::after{
+    border-top: 20px solid var(--H5);
+}
+
+.fiveI{
+    background-color: var(--I5);
+}
+.fiveI::before{
+    border-bottom: 20px solid var(--I5);
+}
+.fiveI::after{
+    border-top: 20px solid var(--I5);
+}
+
+.fiveG1{
+    background-color: var(--G15);
+}
+.fiveG1::before{
+    border-right: 10px solid var(--G15);
+}
+.fiveG1::after{
+    border-left: 10px solid var(--G15);
+}
+
+.fiveG2{
+    background-color: var(--G25);
+}
+.fiveG2::before{
+    border-right: 10px solid var(--G25);
+}
+.fiveG2::after{
+    border-left: 10px solid var(--G25);
+}
+
+.fiveJ{
+    background-color: var(--J5);
+}
+
+.fiveK{
+    background-color: var(--K5);
+}
+
+.fiveL{
+    background-color: var(--L5);
+}
+
+.fiveM{
+    background-color: var(--M5);
+}
+
+
+
+
+
+
+/* D3 */
+.sixA{
+    background-color: var(--A6);
+}
+.sixA::before{
+    border-right: 30px solid var(--A6);
+}
+.sixA::after{
+    border-left: 30px solid var(--A6);
+}
+
+.sixB{
+    background-color: var(--B6);
+}
+.sixB::before{
+    border-bottom: 15px solid var(--B6);
+}
+.sixB::after{
+    border-top: 20px solid var(--B6);
+}
+
+.sixC{
+    background-color: var(--C6);
+}
+.sixC::before{
+    border-bottom: 20px solid var(--C6);
+}
+.sixC::after{
+    border-top: 15px solid var(--C6);
+}
+
+.sixD{
+    background-color: var(--D6);
+}
+.sixD::before{
+    border-right: 30px solid var(--D6);
+}
+.sixD::after{
+    border-left: 30px solid var(--D6);
+}
+
+.sixE{
+    background-color: var(--E6);
+}
+.sixE::before{
+    border-bottom: 20px solid var(--E6);
+}
+.sixE::after{
+    border-top: 15px solid var(--E6);
+}
+
+.sixF{
+    background-color: var(--F6);
+}
+.sixF::before{
+    border-bottom: 15px solid var(--F6);
+}
+.sixF::after{
+    border-top: 20px solid var(--F6);
+}
+
+.sixH{
+    background-color: var(--H6);
+}
+.sixH::before{
+    border-bottom: 20px solid var(--H6);
+}
+.sixH::after{
+    border-top: 20px solid var(--H6);
+}
+
+.sixI{
+    background-color: var(--I6);
+}
+.sixI::before{
+    border-bottom: 20px solid var(--I6);
+}
+.sixI::after{
+    border-top: 20px solid var(--I6);
+}
+
+.sixG1{
+    background-color: var(--G16);
+}
+.sixG1::before{
+    border-right: 10px solid var(--G16);
+}
+.sixG1::after{
+    border-left: 10px solid var(--G16);
+}
+
+.sixG2{
+    background-color: var(--G26);
+}
+.sixG2::before{
+    border-right: 10px solid var(--G26);
+}
+.sixG2::after{
+    border-left: 10px solid var(--G26);
+}
+
+.sixJ{
+    background-color: var(--J6);
+}
+
+.sixK{
+    background-color: var(--K6);
+}
+
+.sixL{
+    background-color: var(--L6);
+}
+
+.sixM{
+    background-color: var(--M6);
+}
+
+
+
+@media (max-width: 1118px){
+
+}
+@media (max-width: 1118px){
+    
+}
+@media (max-width: 860PX){
+       body{
+           transform: rotate(90deg) scale(0.50);
+           margin-top: 0px;
+           margin-left: 300px;
+           overflow: hidden;
+       }
+       #btn , #btn1 , #btn2{
+         transform: scale(1.3);
+       }
+       .clock{
+         margin-left: -250px;
+       }
+       #btn1{
+         margin-left: 1155px;
+       }
+       #btn2{
+         margin-left: 100px;
+       }
+}
